@@ -1,0 +1,20 @@
+{
+  "change_id": "chg-2026-09-18-01",
+  "domain": "pay.example.com",
+  "record_name": "checkout",
+  "incumbent_ip": "192.0.2.10",
+  "target_ip": "198.51.100.20",
+  "short_ttl": 60,
+  "steady_ttl": 300,
+  "approved": true,
+  "payment_events": [
+    {
+      "event_id": "evt-81",
+      "payment_id": "pay-73",
+      "amount_minor": 12500,
+      "currency": "USD",
+      "risk_level": "low",
+      "occurred_at": "2026-09-18T08:30:00Z"
+    }
+  ]
+}
